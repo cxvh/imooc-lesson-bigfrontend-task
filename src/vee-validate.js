@@ -1,5 +1,10 @@
 import Vue from 'vue'
-import {ValidationProvider,ValidationObserver,localize,extend} from 'vee-validate'
+import {
+  ValidationProvider,
+  ValidationObserver,
+  localize,
+  extend
+} from 'vee-validate'
 import * as rules from 'vee-validate/dist/rules';
 
 // import zh from 'vee-validate/dist/locale/zh_CN.json'
@@ -34,11 +39,26 @@ import zh from './local/index.json'
   required_if             | 只有当目标字段(第一个参数)被设置为指定值之一(其他参数)时，验证中的字段必须具有非空值。
   size                    | 添加到验证项下字段的文件大小不得超过指定的大小(单位为千字节)。
  **/
+rules.diff_max_min = {
+  validate: function (value, _a) {
+    var _b = _a === void 0 ? {} : _a,
+      min = +_b.min,
+      max = +_b.max;
+    return String(value).length <= max && String(value).length >= min;
+  },
+  params: [{
+    name: 'min'
+
+  }, {
+    name: 'max'
+  }]
+}
 Object.keys(rules).forEach(rule => {
-    extend(rule, rules[rule]);
+  extend(rule, rules[rule]);
 });
+
 // localize({zh})
 // localize('zh',zh)
-localize('zh',zh);
+localize('zh', zh);
 Vue.component('ValidationProvider', ValidationProvider);
 Vue.component('ValidationObserver', ValidationObserver);

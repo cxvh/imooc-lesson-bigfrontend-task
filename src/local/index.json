@@ -3,18 +3,25 @@
     "messages": {
         "email": "请输入正确的邮箱格式",
         "length": "{_field_}长度要求{length}",
+        "confirmed": "{_field_}不能和{target}匹配",
         "min": "{_field_}必须至少有{length}个字符",
+        "max": "{_field_}必须最多有{length}个字符",
+        "diff_max_min":"{_field_}必须在{min}与{max}之间",
         "required": "请输入{_field_}"
     },
     "names": {
-        "email": "邮箱",
+        "nickname": "昵称",
         "password": "密码",
+        "rpassword": "确认密码",
         "name": "账号",
         "code": "验证码"
     },
     "fields": {
         "password": {
             "min": "不符合最小长度要求"
+        },
+        "rpassword":{
+            "confirmed":"两次密码不一致"
         }
     }
 }
