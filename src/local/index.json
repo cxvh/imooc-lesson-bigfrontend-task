@@ -1,0 +1,20 @@
+{
+    "code":"zh",
+    "messages": {
+        "email": "请输入正确的邮箱格式",
+        "length": "{_field_}长度要求{length}",
+        "min": "{_field_}必须至少有{length}个字符",
+        "required": "请输入{_field_}"
+    },
+    "names": {
+        "email": "邮箱",
+        "password": "密码",
+        "name": "账号",
+        "code": "验证码"
+    },
+    "fields": {
+        "password": {
+            "min": "不符合最小长度要求"
+        }
+    }
+}
