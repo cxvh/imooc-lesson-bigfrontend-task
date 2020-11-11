@@ -8,3 +8,7 @@
 
 > [4-18作业...请点击](https://github.com/cxvh/imooc-lesson-bigfrontend-task/tree/mockjs)
 
+> [webpack，2-7作业...请点击](https://github.com/cxvh/imooc-lesson-bigfrontend-task/tree/webpackBuildFile)
+
+
+
