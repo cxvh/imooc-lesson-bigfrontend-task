@@ -1,0 +1,2 @@
+@font-face{font-family:myfont;src:url(5e709de9d03cd456ff17050adf6de1ff.otf)}body{background-color:green;font-family:myfont}body::after{content:"hi webpack"}.code{font-size:30px;color:yellow}
+
