@@ -1,0 +1,8 @@
+@font-face{
+font-family: myfont;
+src:url('SauceCodePowerlineLight.otf')
+}
+.code{
+    background: red;
+    font-family: myfont;
+}

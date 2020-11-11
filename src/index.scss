@@ -1,0 +1,15 @@
+@font-face{
+  font-family: myfont;
+  src:url('SauceCodePowerlineLight.otf')
+}
+body {
+  background-color: green;
+  font-family: myfont;
+}
+body::after{
+  content: "hi webpack";
+}
+.code {
+  font-size: 30px;
+  color: yellow;
+}
