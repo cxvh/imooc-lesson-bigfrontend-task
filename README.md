@@ -1,5 +1,7 @@
 > 【作业第10周】2-9 作业
 
+> `cnpm i`
+> [http://localhost:8080/#/reg](http://localhost:8080/#/reg)
 ## 演示图
 
 ![](https://qq507570355.oss-cn-beijing.aliyuncs.com/public/picture/github/21.gif)
