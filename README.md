@@ -10,5 +10,6 @@
 
 > [webpack，2-7作业...请点击](https://github.com/cxvh/imooc-lesson-bigfrontend-task/tree/webpackBuildFile)
 
+> [【作业第10周】2-9 作业](https://github.com/cxvh/imooc-lesson-bigfrontend-task/tree/diyVeevalidate)
 
 
